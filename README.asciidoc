@@ -1,0 +1,11 @@
+= zapcontrol
+Boris Gyulumyants <boris.gyulumyants@gmail.com>
+1.0, Readme
+:toc:
+:toc-title: Содержание
+:stylesheet: css/asciidoctor.css
+:icons: font
+:imagesdir: img
+:quick-uri: https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+
+== linux controlling tool for sap processes
