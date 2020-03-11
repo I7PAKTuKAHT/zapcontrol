@@ -27,7 +27,13 @@ print('PID:', result[0][0].pid)
 # Call unprotected webmethod with complex output on another instance
 client.set_options(location='http://bcvm559:50013?wsdl')
 result = client.service.GetProcessList()
-prGreen(result)
+print('Status:') 
+prGreen(result[0][0].dispstatus)
+print('Status:') 
+prGreen(result[0][1].dispstatus)
+print('Status:') 
+prGreen(result[0][2].dispstatus)
+#prGreen(result)
 
 # Provide user and password for protected webmethod
 #client2 = Client(url, username='soladm', password='')
